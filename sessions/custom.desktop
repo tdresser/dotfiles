@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Custom
+Comment=Custom session
+Exec=/opt/dotfiles/sessions/custom
+Icon=
+Type=Application

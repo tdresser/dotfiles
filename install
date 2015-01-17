@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt-get install \
+emacs \
+tmux \
+git 
+
+sudo ln -fs ~/dotfiles/sessions/custom.desktop /usr/share/xsessions/
+sudo ln -fs ~/dotfiles/sessions/post-xsession.desktop ~/.config/autostart/
+sudo ln -fs ~/dotfiles /opt/dotfiles
+

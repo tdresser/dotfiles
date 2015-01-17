@@ -1,0 +1,5 @@
+#!/bin/bash
+xmodmap ~/dotfiles/xmodmap
+google-chrome &
+export POST_XSESSION="xmonad --replace"
+exec startxfce4
